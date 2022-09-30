@@ -27,6 +27,8 @@ mailchimp.setConfig({
   server: "us13",
 });
 
+app.get('/cool', (req, res) => res.send(cool()));
+
 app.get("/",(req,res) => {
   res.sendFile(__dirname + "/signup.html");
 });
