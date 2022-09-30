@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.0",
+    "cool-ascii-faces": "^1.3.4",
     "express": "^4.18.1",
     "mailchimp-marketing": "^5.0.0",
     "request": "^2.88.2"
